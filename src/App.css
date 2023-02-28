@@ -17,3 +17,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.container {
+  padding: 5% 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.chatText {
+  font-size: 1em;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 1rem;
+  margin: auto;
+  width: 50vw;
+  height: auto;
+  background-image: linear-gradient(to left, #609966, #9dc08b);
+  box-shadow: 3px 4px #40513b;
+}
+
+.chatDate {
+  font-size: 0.5em;
+}
+
+.panel {
+  margin: 0;
+  padding: 0;
+}
