@@ -2,13 +2,19 @@
   "name": "instagram-bootcamp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ivan89kiat.github.io/instagram-bootcamp",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "firebase": "^9.8.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.1.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
